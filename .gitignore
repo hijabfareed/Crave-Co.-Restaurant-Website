@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+*.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (if any tooling added later)
+node_modules/
+npm-debug.log*
+yarn-error.log
+.env
+
+# Build artefacts
+dist/
+build/
+
+# Temp
+tmp/
+*.tmp
+*.bak

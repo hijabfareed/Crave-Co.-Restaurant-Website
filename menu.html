@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Menu — Crave Co. Fine Dining</title>
+  <meta name="description" content="Explore Crave Co.'s full menu — starters, mains, desserts, and craft cocktails. Seasonal ingredients, award-winning recipes.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://craveco.com/menu.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Menu — Crave Co. Fine Dining">
+  <meta property="og:description" content="Explore our award-winning menu crafted from the finest seasonal ingredients.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&auto=format&fit=crop&q=80">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Lato:wght@300;400;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwOKA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽</text></svg>">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div id="preloader" role="status" aria-label="Loading">
+    <div class="preloader-logo">
+      <div>Crave<span>Co.</span></div>
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="mainNav" class="navbar navbar-expand-lg fixed-top scrolled" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Crave<span>Co.</span></a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="reservations.html" class="btn btn-gold btn-reserve ms-lg-3">Reserve a Table</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <header class="page-hero" id="main-content"
+          style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1800&auto=format&fit=crop&q=80');"
+          aria-label="Menu page header">
+    <div class="page-hero__content">
+      <span class="page-hero__eyebrow">Crafted with Passion</span>
+      <h1 class="page-hero__title">Our Menu</h1>
+      <nav class="page-hero__breadcrumb" aria-label="Breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Menu</li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- Diet Key -->
+    <section class="bg-dark-2 py-3" aria-label="Dietary key">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center gap-3 justify-content-center" style="font-size: .82rem; color: var(--clr-text-muted);">
+          <strong style="color: var(--clr-text-light);">Key:</strong>
+          <span><span class="tag tag--veg">V</span> Vegetarian</span>
+          <span><span class="tag tag--gf">GF</span> Gluten Free</span>
+          <span><span class="tag tag--spicy">🌶</span> Spicy</span>
+          <span><span class="tag tag--new">New</span> New Addition</span>
+          <span style="color: var(--clr-gold);">★</span> Chef's Favourite
+        </div>
+      </div>
+    </section>
+
+    <!-- Filters & Search -->
+    <section class="section-py" aria-labelledby="menu-page-heading">
+      <div class="container">
+
+        <div class="text-center mb-4" data-reveal>
+          <span class="section-eyebrow">Explore</span>
+          <h2 class="section-title" id="menu-page-heading">Seasonal Menu</h2>
+          <div class="divider-gold mx-auto"></div>
+          <p class="section-subtitle">
+            Our menu changes with the seasons to bring you the very best produce available.
+            Allergen information available on request.
+          </p>
+        </div>
+
+        <!-- Search -->
+        <div class="menu-search-wrap" data-reveal>
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          <input type="search" id="menuSearch" placeholder="Search dishes…" aria-label="Search menu items">
+        </div>
+
+        <!-- Filter buttons -->
+        <div class="menu-filters" role="group" aria-label="Filter menu by category" data-reveal>
+          <button class="menu-filter-btn active" data-filter="all" type="button">All</button>
+          <button class="menu-filter-btn" data-filter="starters" type="button">Starters</button>
+          <button class="menu-filter-btn" data-filter="soups" type="button">Soups</button>
+          <button class="menu-filter-btn" data-filter="mains" type="button">Mains</button>
+          <button class="menu-filter-btn" data-filter="sides" type="button">Sides</button>
+          <button class="menu-filter-btn" data-filter="desserts" type="button">Desserts</button>
+          <button class="menu-filter-btn" data-filter="drinks" type="button">Drinks</button>
+        </div>
+
+        <!-- ── STARTERS ── -->
+        <div class="menu-section mb-5" id="starters">
+          <h3 class="menu-category-title mb-1" data-reveal>Starters</h3>
+          <p class="mb-4" style="font-size:.85rem;color:var(--clr-text-muted);" data-reveal>
+            Begin your journey with our carefully curated selection of starters.
+          </p>
+
+          <div class="row g-4">
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="starters" data-name="Burrata & Heirloom Tomato" data-desc="Creamy burrata heirloom tomatoes fresh basil oil">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&auto=format&fit=crop&q=80"
+                     alt="Burrata & Heirloom Tomato" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Burrata &amp; Heirloom Tomato ★</h4>
+                  <p class="menu-item-row__desc">Creamy burrata, heirloom tomatoes, fresh basil oil, Maldon sea salt, aged balsamic.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--veg">V</span>
+                    <span class="tag tag--gf">GF</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$22</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="starters" data-name="Tuna Tartare" data-desc="Yellowfin tuna avocado sesame ponzu">
+                <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=200&auto=format&fit=crop&q=80"
+                     alt="Tuna Tartare" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Tuna Tartare</h4>
+                  <p class="menu-item-row__desc">Yellowfin tuna, avocado, sesame ponzu dressing, pickled ginger, and wonton crisps.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--gf">GF</span>
+                    <span class="tag tag--new">New</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$28</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="starters" data-name="Duck Liver Pâté" data-desc="Cognac duck liver pate brioche cornichons">
+                <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=200&auto=format&fit=crop&q=80"
+                     alt="Duck Liver Pâté" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Duck Liver Pâté</h4>
+                  <p class="menu-item-row__desc">Smooth cognac-scented pâté, toasted brioche, cornichons, and red onion marmalade.</p>
+                  <div class="menu-item-row__tags"></div>
+                </div>
+                <span class="menu-item-row__price">$24</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="starters" data-name="Crispy Calamari" data-desc="Squid rings chili aioli lemon">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=200&auto=format&fit=crop&q=80"
+                     alt="Crispy Calamari" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Crispy Calamari</h4>
+                  <p class="menu-item-row__desc">Tender squid rings, seasoned panko crust, chili aioli, and fresh lemon wedges.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--spicy">🌶</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$19</span>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /starters -->
+
+        <!-- ── SOUPS ── -->
+        <div class="menu-section mb-5" id="soups">
+          <h3 class="menu-category-title mb-1" data-reveal>Soups &amp; Salads</h3>
+          <p class="mb-4" style="font-size:.85rem;color:var(--clr-text-muted);" data-reveal>
+            Warm, comforting soups and vibrant seasonal salads.
+          </p>
+
+          <div class="row g-4">
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="soups" data-name="Lobster Bisque" data-desc="Velvety lobster bisque creme fraiche tarragon brioche">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=200&auto=format&fit=crop&q=80"
+                     alt="Lobster Bisque" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Lobster Bisque ★</h4>
+                  <p class="menu-item-row__desc">Velvety lobster bisque, crème fraîche, tarragon oil, and toasted brioche soldiers.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--gf">GF</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$28</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="soups" data-name="French Onion Soup" data-desc="Caramelised onion gruyere croute">
+                <img src="https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=200&auto=format&fit=crop&q=80"
+                     alt="French Onion Soup" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">French Onion Soup</h4>
+                  <p class="menu-item-row__desc">Slow-caramelised onion in beef consommé, topped with Gruyère croûte.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--veg">V</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$18</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="soups" data-name="Caesar Salad" data-desc="Romaine parmesan croutons caesar dressing">
+                <img src="https://images.unsplash.com/photo-1546793665-c74683f339c1?w=200&auto=format&fit=crop&q=80"
+                     alt="Caesar Salad" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Classic Caesar Salad</h4>
+                  <p class="menu-item-row__desc">Crisp romaine, shaved Parmesan, herb croutons, house-made Caesar dressing, anchovies.</p>
+                  <div class="menu-item-row__tags"></div>
+                </div>
+                <span class="menu-item-row__price">$20</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="soups" data-name="Roasted Beetroot Salad" data-desc="Beetroot goat cheese walnut honey dressing vegetarian gluten free">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&auto=format&fit=crop&q=80"
+                     alt="Roasted Beetroot Salad" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Roasted Beetroot Salad</h4>
+                  <p class="menu-item-row__desc">Honey-roasted beetroot, whipped goat cheese, candied walnuts, and balsamic glaze.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--veg">V</span>
+                    <span class="tag tag--gf">GF</span>
+                    <span class="tag tag--new">New</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$21</span>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /soups -->
+
+        <!-- ── MAINS ── -->
+        <div class="menu-section mb-5" id="mains">
+          <h3 class="menu-category-title mb-1" data-reveal>Main Courses</h3>
+          <p class="mb-4" style="font-size:.85rem;color:var(--clr-text-muted);" data-reveal>
+            The heart of our kitchen. Each main is paired with its perfect accompaniment.
+          </p>
+
+          <div class="row g-4">
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="mains" data-name="Pan-Seared Atlantic Salmon" data-desc="Wild caught salmon lemon caper butter asparagus saffron risotto">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&auto=format&fit=crop&q=80"
+                     alt="Pan-Seared Atlantic Salmon" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Pan-Seared Atlantic Salmon ★</h4>
+                  <p class="menu-item-row__desc">Wild-caught salmon, lemon-caper beurre blanc, charred asparagus, and saffron risotto.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--gf">GF</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$38</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="mains" data-name="Truffle Beef Tenderloin" data-desc="Grass fed tenderloin black truffle jus roasted carrots potato gratin">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&auto=format&fit=crop&q=80"
+                     alt="Truffle Beef Tenderloin" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Truffle Beef Tenderloin ★</h4>
+                  <p class="menu-item-row__desc">Grass-fed tenderloin, black truffle jus, roasted heritage carrots, and potato gratin.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--gf">GF</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$54</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="mains" data-name="Duck Confit" data-desc="Slow cooked duck leg cherry jus creamy polenta">
+                <img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?w=200&auto=format&fit=crop&q=80"
+                     alt="Duck Confit" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Duck Confit</h4>
+                  <p class="menu-item-row__desc">Slow-cooked duck leg, cherry and red wine jus, creamy polenta, and wilted spinach.</p>
+                  <div class="menu-item-row__tags"></div>
+                </div>
+                <span class="menu-item-row__price">$44</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="mains" data-name="Ricotta Gnocchi" data-desc="Hand rolled gnocchi wild mushroom truffle butter parmigiano vegetarian">
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=200&auto=format&fit=crop&q=80"
+                     alt="Ricotta Gnocchi" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Ricotta Gnocchi</h4>
+                  <p class="menu-item-row__desc">Hand-rolled gnocchi, wild mushroom ragù, truffle butter, and Parmigiano Reggiano.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--veg">V</span>
+                    <span class="tag tag--new">New</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$32</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="mains" data-name="Rack of Lamb" data-desc="Herb crusted rack of lamb mint jus dauphinoise potato">
+                <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=200&auto=format&fit=crop&q=80"
+                     alt="Rack of Lamb" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Herb-Crusted Rack of Lamb</h4>
+                  <p class="menu-item-row__desc">New Zealand lamb, herb &amp; mustard crust, mint jus, dauphinoise potatoes, and haricots verts.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--gf">GF</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$52</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="mains" data-name="King Prawn Pasta" data-desc="Linguine king prawn chili garlic white wine bisque">
+                <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=200&auto=format&fit=crop&q=80"
+                     alt="King Prawn Pasta" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">King Prawn Linguine</h4>
+                  <p class="menu-item-row__desc">Linguine, king prawns, chili-garlic oil, white wine, cherry tomatoes, and fresh parsley.</p>
+                  <div class="menu-item-row__tags">
+                    <span class="tag tag--spicy">🌶</span>
+                  </div>
+                </div>
+                <span class="menu-item-row__price">$36</span>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /mains -->
+
+        <!-- ── SIDES ── -->
+        <div class="menu-section mb-5" id="sides">
+          <h3 class="menu-category-title mb-1" data-reveal>Sides</h3>
+          <p class="mb-4" style="font-size:.85rem;color:var(--clr-text-muted);" data-reveal>
+            Perfect accompaniments to elevate your main course.
+          </p>
+
+          <div class="row g-4">
+            <div class="col-md-4" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="sides" data-name="Truffle Fries" data-desc="Crispy fries truffle oil parmesan">
+                <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=200&auto=format&fit=crop&q=80"
+                     alt="Truffle Fries" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Truffle Parmesan Fries</h4>
+                  <p class="menu-item-row__desc">Crispy hand-cut fries tossed in truffle oil with shaved Parmesan.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span></div>
+                </div>
+                <span class="menu-item-row__price">$12</span>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="sides" data-name="Creamed Spinach" data-desc="Wilted spinach cream nutmeg butter vegetarian gluten free">
+                <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=200&auto=format&fit=crop&q=80"
+                     alt="Creamed Spinach" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Creamed Spinach</h4>
+                  <p class="menu-item-row__desc">Wilted baby spinach, cream, nutmeg, and garlic butter.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span><span class="tag tag--gf">GF</span></div>
+                </div>
+                <span class="menu-item-row__price">$10</span>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-reveal data-delay="300">
+              <div class="menu-item-row" data-category="sides" data-name="Roasted Broccolini" data-desc="Broccolini chili lemon almond vegetarian gluten free">
+                <img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=200&auto=format&fit=crop&q=80"
+                     alt="Roasted Broccolini" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Roasted Broccolini</h4>
+                  <p class="menu-item-row__desc">Char-roasted broccolini, chili flakes, lemon zest, and toasted almonds.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span><span class="tag tag--gf">GF</span></div>
+                </div>
+                <span class="menu-item-row__price">$11</span>
+              </div>
+            </div>
+          </div>
+        </div><!-- /sides -->
+
+        <!-- ── DESSERTS ── -->
+        <div class="menu-section mb-5" id="desserts">
+          <h3 class="menu-category-title mb-1" data-reveal>Desserts</h3>
+          <p class="mb-4" style="font-size:.85rem;color:var(--clr-text-muted);" data-reveal>
+            End on a sweet note with our indulgent dessert selection.
+          </p>
+
+          <div class="row g-4">
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="desserts" data-name="Valrhona Chocolate Fondant" data-desc="Dark chocolate fondant salted caramel vanilla ice cream">
+                <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=200&auto=format&fit=crop&q=80"
+                     alt="Valrhona Chocolate Fondant" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Valrhona Chocolate Fondant ★</h4>
+                  <p class="menu-item-row__desc">Warm 70% dark chocolate fondant, salted caramel centre, house-churned vanilla ice cream.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span></div>
+                </div>
+                <span class="menu-item-row__price">$18</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="desserts" data-name="Crème Brûlée" data-desc="Classic vanilla creme brulee torched sugar">
+                <img src="https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?w=200&auto=format&fit=crop&q=80"
+                     alt="Crème Brûlée" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Classic Crème Brûlée</h4>
+                  <p class="menu-item-row__desc">Classic Madagascan vanilla custard, torched sugar crust, and seasonal berries.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span><span class="tag tag--gf">GF</span></div>
+                </div>
+                <span class="menu-item-row__price">$16</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="desserts" data-name="Lemon Tart" data-desc="Buttery pastry lemon curd meringue">
+                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=200&auto=format&fit=crop&q=80"
+                     alt="Lemon Tart" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Lemon &amp; Elderflower Tart</h4>
+                  <p class="menu-item-row__desc">Buttery shortcrust, sharp lemon curd, Italian meringue, and elderflower cream.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span></div>
+                </div>
+                <span class="menu-item-row__price">$15</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="desserts" data-name="Artisan Cheese Board" data-desc="Selection of cheeses chutney crackers grapes walnuts">
+                <img src="https://images.unsplash.com/photo-1452195100486-9cc805987862?w=200&auto=format&fit=crop&q=80"
+                     alt="Artisan Cheese Board" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Artisan Cheese Board</h4>
+                  <p class="menu-item-row__desc">Selection of 5 artisan cheeses, house chutney, crackers, grapes, and candied walnuts.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span></div>
+                </div>
+                <span class="menu-item-row__price">$26</span>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /desserts -->
+
+        <!-- ── DRINKS ── -->
+        <div class="menu-section mb-5" id="drinks">
+          <h3 class="menu-category-title mb-1" data-reveal>Drinks &amp; Cocktails</h3>
+          <p class="mb-4" style="font-size:.85rem;color:var(--clr-text-muted);" data-reveal>
+            From expert wine pairings to artisanal cocktails — the perfect complement to your meal.
+          </p>
+
+          <div class="row g-4">
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="drinks" data-name="Signature Cocktail Collection" data-desc="Handcrafted cocktails premium spirits seasonal garnishes">
+                <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=200&auto=format&fit=crop&q=80"
+                     alt="Signature Cocktails" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Signature Cocktail Collection ★</h4>
+                  <p class="menu-item-row__desc">A rotating selection of handcrafted cocktails using premium spirits and house-made syrups.</p>
+                  <div class="menu-item-row__tags"></div>
+                </div>
+                <span class="menu-item-row__price">From $16</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="drinks" data-name="Wine by the Glass" data-desc="Sommelier selected red white sparkling wine">
+                <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=200&auto=format&fit=crop&q=80"
+                     alt="Wine Selection" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Wine by the Glass</h4>
+                  <p class="menu-item-row__desc">Sommelier-curated selection of red, white, rosé, and sparkling wines from renowned estates.</p>
+                  <div class="menu-item-row__tags"></div>
+                </div>
+                <span class="menu-item-row__price">From $14</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="100">
+              <div class="menu-item-row" data-category="drinks" data-name="Non-Alcoholic Mocktails" data-desc="Zero proof fresh botanical mocktails">
+                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=200&auto=format&fit=crop&q=80"
+                     alt="Mocktails" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Artisanal Mocktails</h4>
+                  <p class="menu-item-row__desc">Zero-proof, full-flavour botanical blends crafted with fresh fruits and herbs.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span></div>
+                </div>
+                <span class="menu-item-row__price">From $10</span>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-reveal data-delay="200">
+              <div class="menu-item-row" data-category="drinks" data-name="Specialty Coffee" data-desc="Single origin espresso coffee latte cappuccino">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=200&auto=format&fit=crop&q=80"
+                     alt="Specialty Coffee" class="menu-item-row__img" loading="lazy" width="85" height="85">
+                <div class="menu-item-row__body">
+                  <h4 class="menu-item-row__name">Specialty Coffee</h4>
+                  <p class="menu-item-row__desc">Single-origin espresso, cortado, flat white, or our house cold brew with oat milk.</p>
+                  <div class="menu-item-row__tags"><span class="tag tag--veg">V</span></div>
+                </div>
+                <span class="menu-item-row__price">From $6</span>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /drinks -->
+
+        <!-- Reservation CTA -->
+        <div class="text-center py-4" data-reveal>
+          <p style="color: var(--clr-text-muted); margin-bottom: 1rem;">
+            Ready to experience our menu in person?
+          </p>
+          <a href="reservations.html" class="btn btn-gold btn-lg">
+            <i class="fa-solid fa-calendar-check me-2" aria-hidden="true"></i>Reserve Your Table
+          </a>
+        </div>
+
+      </div><!-- /container -->
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <a href="index.html" class="footer__logo d-block mb-3">Crave<span>Co.</span></a>
+          <p class="footer__desc">A premium dining experience where passion meets perfection.</p>
+          <div class="footer__social" aria-label="Social media links">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h3 class="footer__heading">Explore</h3>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Our Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h3 class="footer__heading">Opening Hours</h3>
+          <div class="footer__hours">
+            <table aria-label="Opening hours">
+              <tbody>
+                <tr><td>Mon – Thu</td><td>11am – 10pm</td></tr>
+                <tr><td>Friday</td><td>11am – 11pm</td></tr>
+                <tr><td>Saturday</td><td>10am – 12am</td></tr>
+                <tr><td>Sunday</td><td>10am – 10pm</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="footer__heading">Get in Touch</h3>
+          <address style="font-style: normal;">
+            <div class="footer__contact-item">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <span>42 Gourmet Lane, New York, NY 10001</span>
+            </div>
+            <div class="footer__contact-item">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <a href="tel:+15551234567">+1 (555) 123-4567</a>
+            </div>
+            <div class="footer__contact-item">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:hello@craveco.com">hello@craveco.com</a>
+            </div>
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+        <p class="mb-0">&copy; <span data-year></span> Crave Co. All rights reserved.</p>
+        <nav aria-label="Legal links"><a href="#" class="me-3">Privacy Policy</a><a href="#">Terms</a></nav>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmRIuLMwqe2CsRplHsz4zWF5y4a" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
