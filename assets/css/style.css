@@ -1634,6 +1634,8 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-track { background: var(--clr-dark); }
 ::-webkit-scrollbar-thumb { background: var(--clr-gold-dark); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--clr-gold); }
+/* Firefox */
+* { scrollbar-width: thin; scrollbar-color: var(--clr-gold-dark) var(--clr-dark); }
 
 /* Skip to main (accessibility) */
 .skip-link {

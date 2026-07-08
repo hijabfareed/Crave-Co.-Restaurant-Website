@@ -137,13 +137,31 @@ window.addEventListener('load', () => {
 
   let activeCategory = 'all';
 
+  /* Cache name/desc strings on init for performance */
+  menuItems.forEach(item => {
+    if (!item.dataset.nameCached) {
+      item.dataset.nameCached = (
+        item.dataset.name ||
+        item.querySelector('.menu-card__title, .menu-item-row__name')?.textContent ||
+        ''
+      ).toLowerCase();
+    }
+    if (!item.dataset.descCached) {
+      item.dataset.descCached = (
+        item.dataset.desc ||
+        item.querySelector('.menu-card__desc, .menu-item-row__desc')?.textContent ||
+        ''
+      ).toLowerCase();
+    }
+  });
+
   function filterItems() {
     const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
 
     menuItems.forEach(item => {
       const cat   = item.dataset.category || '';
-      const name  = (item.dataset.name  || item.querySelector('.menu-card__title, .menu-item-row__name')?.textContent || '').toLowerCase();
-      const desc  = (item.dataset.desc  || item.querySelector('.menu-card__desc, .menu-item-row__desc')?.textContent  || '').toLowerCase();
+      const name  = item.dataset.nameCached || '';
+      const desc  = item.dataset.descCached || '';
 
       const matchesCat   = activeCategory === 'all' || cat === activeCategory;
       const matchesQuery = !query || name.includes(query) || desc.includes(query);
